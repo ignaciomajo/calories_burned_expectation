@@ -81,4 +81,4 @@ Either way, you should end up with the following files an directories:
 
 ![imagen-readme](https://github.com/user-attachments/assets/133bc743-0424-4120-a7a6-7245d2f28f8c)
 
-**| Ignacio Majo | Data Scientist Junior | Junior RPA Developer |**
+**| Ignacio Majo | Junior Data Scientist | Junior RPA Developer |**
