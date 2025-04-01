@@ -51,9 +51,15 @@ Either way, you should end up with the following files an directories:
 
 * **models**📁: this directory contains the model and the scalaer for deployment, both are implemented in the desktop application to calculate predictions based on the user
   provided by the user.
-* **Calories_Burned_Analysis.ipynb**📄: *Jupyter Notebook* file containing the full analysis performed on the dataset. *(I suggets to use this environment or a Google Colab
+* **Calories_Burned_Analysis.ipynb**📄: ***Jupyter Notebook*** file containing the full analysis performed on the dataset. *(I suggets to use this environment or a Google Colab
   environment since it has data visualization)*.
-* **Calories_Burned_Expectation.py**📄
+* **Calories_Burned_Expectation.py**📄: script that contains the application development. You can run it from an interpreter such as ***Visual Studio Code*** to see the application. In case you want to build the application for distribution, you can run the following code in your command line from the directory you have the project in:<br>
+
+` python -m PyInstaller --onefile --windowed --icon=icon4.png --add-data "models;models" --hidden-import=numpy --hidden-import=numpy.core.multiarray Calories_Burned_Expectations.py`
+
+*Note: make sure you have PyInstaller in your computer*
+
+* **gym_members_excercise_tracking.csv**📄: ***CSV*** file that contains the data used for the analysis.
 
 ## 3. Functionalities and Applications Demonstration 📝
 
