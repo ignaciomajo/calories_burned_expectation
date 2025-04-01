@@ -62,19 +62,35 @@ Either way, you should end up with the following files an directories:
 
 ## 3. Functionalities and Applications Demonstration 📝
 
-<br><br><br><br><br>
+Both scrpits are documented.<br>
+The `Calories_Burned_Analysis.ipynp`📄 has observations and conclusions along the analysis that justify each taken step.
+<br><br>
+
+The application, whether you decide to build it by using `PyInstaller` or not will look like this:
+
+![app](https://github.com/user-attachments/assets/29b31df3-b39a-46b6-91b9-d138b72f1b10)
+
+* What's within the red square are the fields that the user should complete. All fields marked with **(*)** are obligatories.<br>
+* The blue square indicates the button used to calculate the user calories burn expectation. The calculations are based on the values the user has introduced, which are transformed using the scaler and then linearly combined with the coefficients obtained in the `Calories_Burned_Analysis.ipynb`📄.<br>
+* The green square comprises the labels with the calculations performed with the previous step for one workout session and for a complete month *(30 days)* based on the Weekly Workout Frequency the user has entered.<br>
+* And yellow square indicates a button to reset all values.
+
+*Note: As not everyboy has access to a Smart Watch to track their BPM during workout, it is the only non-obligatory field which will be filled with the average AVG BMP deduced from the dataset.*
 
 ## 4. Technologies used 🛠️
 
-* ``
+* `Anaconda - Jupyter Notebook`
+* `Visual Studio Code`
 * `Git and GitHub`
-* ``
-* ``
-* ``
+* `Python`
 
 ## 5. Acknowledgments 🤝
 
-<br><br><br><br><br>
+I want to thank Kaggle Community for providing a space and material for students to practice.
+
+![kagle](https://github.com/user-attachments/assets/c01c46a8-20dd-4c5f-a135-f688e056064e)
+
+And Vala Khorasani for providing the dataset.
 
 ## 6. Project Developer 👷
 
