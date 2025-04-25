@@ -49,7 +49,7 @@ Either way, you should end up with the following files an directories:
 
 ![repository](https://github.com/user-attachments/assets/32e744b5-aea2-4a19-81e9-394fcdc3ab97)
 
-* **models**📁: this directory contains the model and the scalaer for deployment, both are implemented in the desktop application to calculate predictions based on the information provided by the user.
+* **models**📁: this directory contains the model and the scaler for deployment, both are implemented in the desktop application to calculate predictions based on the information provided by the user.
 * **Calories_Burned_Analysis.ipynb**📄: ***Jupyter Notebook*** file containing the full analysis performed on the dataset. *(I suggets to use this environment or a Google Colab
   environment since it has data visualization)*.
 * **Calories_Burned_Expectation.py**📄: script that contains the application development. You can run it from an interpreter such as ***Visual Studio Code*** to see the application. In case you want to build the application for distribution, you can run the following code in your command line from the directory you have the project in:<br>
